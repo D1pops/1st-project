@@ -1,4 +1,7 @@
-.content {
+.cont {
   grid-area: c;
   background-color: cornflowerblue;
+}
+.cont {
+  color : greenyellow;
 }
