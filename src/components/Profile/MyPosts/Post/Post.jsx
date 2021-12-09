@@ -5,7 +5,7 @@ const Post = (props) => {
 
   return (
     <div>
-      <div className={Pt.pos}>
+      <div className={Pt.post}>
         <img src='https://resheto.net/images/mater/pozitivnye_kartinki_2.jpg' />
         { props.message}
       </div>  
