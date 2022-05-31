@@ -7,7 +7,7 @@ const Profile = () => {
         <div className={s.content}>
 
             <div>
-                <img src='https://3dnews.ru/assets/external/illustrations/2021/09/25/1049888/mars.jpg'/>
+                <img className={s.imgSize} src='https://wpapers.ru/wallpapers/nature/14231/1920x1080_%D0%9F%D0%B0%D0%BB%D1%8C%D0%BC%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B0%D0%B9.jpg'/>
             </div>
             <div>
                 ava + description
