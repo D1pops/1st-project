@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className={s.item}>
         <NavLink to="/profile" activeClassName={s.activeLink}>Profile</NavLink>
       </div>
-      <div className={`${s.item} ${s.activeLink}`}>       {/*заменил active на activeLink не проверял последствия*/}
+      <div className={`${s.item} ${s.activeLink}`}>
         <NavLink to="/dialogs" activeClassName={s.activeLink}>Messages</NavLink>
       </div>
       <div className={s.item}>
